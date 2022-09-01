@@ -78,6 +78,19 @@ pip install -r requirements.txt
 python list_notebooks.py
 ```
 Пользователь увидит список своих блокнотов и их GUID
+![](https://github.com/atskayasatana/Images/blob/470e360b2b7da8f0160bb96ab5217c1842fd4b0c/list_notebooks.png)
+
+### dump_inbox.py 
+
+Скрипт выводит содержимое заметок выбранного блокнота, в файле настроек это блокнот с  INBOX_NOTEBOOK_GUID.
+
+Заметки выводятся отсортированные в обратном порядке по времени обновления, от самой свежей к старым.
+
+```
+python dump_inbox.py
+
+```
+![](https://github.com/atskayasatana/Images/blob/7c752d24e3eeac5799a5d1d5795b4d31b4256ecc/dump_inbox.png)
 
 
 
