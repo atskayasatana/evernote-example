@@ -26,10 +26,10 @@ JOURNAL_NOTEBOOK_GUID = # id блокнота в который мы будем 
 INBOX_NOTEBOOK_GUID = # id блокнота заметки из котрого мы будем выводить на экран
 JOURNAL_TEMPLATE_NOTE_GUID = # шаблонная заметка, которую мы будем добавлять в блокнот
 ```
-### EVERNOTE_PERSONAL_TOKEN 
+###### EVERNOTE_PERSONAL_TOKEN 
 Персональный токен пользователя, получить здесь:https://sandbox.evernote.com/api/DeveloperToken.action
 
-### JOURNAL_NOTEBOOK_GUID 
+###### JOURNAL_NOTEBOOK_GUID 
 Блокнот с которым мы будем работать. В своем аккаунте на https://sandbox.evernote.com/ заходим в выбранный блокнот.
 
 Ссылка в браузере выглядит так:
@@ -38,11 +38,11 @@ JOURNAL_TEMPLATE_NOTE_GUID = # шаблонная заметка, которую
 
 GUID блокнота это строка между b= и &, в данном случае 7021bded-e808-46eb-a4aa-6b0cc4546ba0
 
-### INBOX_NOTEBOOK_GUID
+###### INBOX_NOTEBOOK_GUID
 
 Блокнот, информацию по которому мы хотим вывести на экран. Можно взять тот же GUID, что и в предыдущем пункте, можно выбрать другой.
 
-### JOURNAL_TEMPLATE_NOTE_GUID
+###### JOURNAL_TEMPLATE_NOTE_GUID
 
 Шаблонная заметка, которую мы будем добавлять в блокнот с GUID JOURNAL_NOTEBOOK_GUID.
 
