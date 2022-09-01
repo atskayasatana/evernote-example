@@ -58,6 +58,12 @@ GUID заметки можно получить аналогично GUID бло
 ```
 conda create -n имя_окружения python=2.7
 ```
+Активируем новое окружение:
+
+```
+conda activate имя_окружения
+
+```
 
 Для работы нам понадобятся библиотеки из файла requirements.txt
 
@@ -71,6 +77,7 @@ pip install -r requirements.txt
 ```
 python list_notebooks.py
 ```
+Пользователь увидит список своих блокнотов и их GUID
 
 
 
